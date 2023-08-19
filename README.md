@@ -1,17 +1,20 @@
 # Stock_Price_Prediction
 
-Introduction
+Introduction :
+
 Forecasting stock prices plays an important role in setting a trading strategy or determining the appropriate timing for buying or selling a stock. In this project, we use a model, called feature fusion long short-term memory-convolutional neural network (LSTM-CNN) model. It combines features learned from different representations of the same data, namely, stock time series and stock chart images, to predict stock prices.
 
-Related Work
+Related Work :
+
 Stock prediction is one of the most challenging and long standing problems in the field of time series data. H.Q.Thang @hust used Gaussian Process Regression and Autoregressive Moving Average Model to predict Vietnam Stock Index Trend. N.V.Son @vbd used ARIMA and LSTM to predict some stock symbols like APPL (Apple), AMZN (Amazon).
 
 In this project, we use a combined model called long short-term memory-convolutional neural network (LSTM-CNN) to predict closed price of Dow Jones Industrial Average (DJIA). As an extension, the model will be implemented on VN-30 index data. Kim T, Kim HY @ours implemented fusion LSTM-CNN model on 2018-2019 S&P 500 data. Simiarly, Hao Y, Gao Q constructed LSTM-CNN model using 2009-2019 S&P 500 data.
 
-Expected Results
-Understand CNN, LSTM model and its application to time series forecasting problems.
+Expected Results : 
 
-Understand forecasting stock prices problem, the application of machine learning in this field and the shortcomings of using them in the real market.
+1 Understand CNN, LSTM model and its application to time series forecasting problems.
+
+2 Understand forecasting stock prices problem, the application of machine learning in this field and the shortcomings of using them in the real market.
 
 Reference
 1. H.Q.Thang. Vietnam Stock Index Trend Prediction using Gaussian Process Regression and Autoregressive Moving Average Model. Research and Development on Information and Communication Technology, HUST, 2018.
